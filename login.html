@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Linking CSS file -->
+</head>
+<body>
+  <div class="login-box">
+    <h2>Login</h2>
+    <div class="input-group">
+      <input type="text" placeholder="Enter Mobile Number">
+    </div>
+    <div class="input-group">
+      <input type="password" placeholder="Enter Password" id="password">
+      <button onclick="toggleVisibility('password', this)">Show</button>
+    </div>
+    <div class="input-group">
+      <input type="password" placeholder="Confirm Password" id="confirm-password">
+      <button onclick="toggleVisibility('confirm-password', this)">Show</button>
+    </div>
+    <button class="login-btn">Login</button>
+  </div>
+
+  <script src="script.js"></script> <!-- Linking JS file -->
+</body>
+</html>
